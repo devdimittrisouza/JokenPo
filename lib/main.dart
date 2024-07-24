@@ -93,16 +93,6 @@ class _HomeStateState extends State<HomeState> {
             ),
             ),
           ),
-
-          /*Widget para captura de gestos na tela
-          GestureDetector(
-            onTap: (){
-              print("askbjdasjldas");
-            },
-            child: Image.asset(_imgPadrao)
-          ),
-          */
-
           Image(image: this._imgPadrao),
           Padding(
             padding: EdgeInsets.only(top: 32, bottom: 32),
@@ -129,11 +119,6 @@ class _HomeStateState extends State<HomeState> {
                 onTap: () => _opcaoSelecionada("tesoura"),
                 child: Image.asset(_imgTesoura, height: 100),
               )
-              /*
-              Image.asset(_imgPedra, height: 100),
-              Image.asset(_imgPapel, height: 100),
-              Image.asset(_imgTesoura, height: 100)
-               */
             ],
           )
         ],
